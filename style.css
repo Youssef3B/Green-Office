@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face{
+    font-family: "Oswald";
+    src: url("/fonts/Oswald-Regular.ttf")
+}
+body{
+    background: url(/images/fond.png);
+    width: 50%;
+    margin: auto;
+    
+
+}
+.all{
+    background-color: aliceblue;
+    padding-bottom: 60px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+p{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+nav{
+    height: 100px;
+    background-color: #B8CB21;  
+    font-family: "Oswald";;
+}
+img{
+    width: 140px;
+    height: 100px;
+    
+}
+nav ul li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+nav ul{
+    float: right;
+    margin-top: 40px;
+    padding-right: 20px;
+    
+}
+.who{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.who h2{
+    color: #B8CB21;
+    font-weight: 400;
+}
+.container_who img{
+    margin-left: 0px;
+    width: 160px;
+    float: left;
+    padding-right: 10px;
+}
+.who button{
+    width: 70px;
+    height: 30px;
+    background-color: #B8CB21;
+    color: aliceblue;
+    border: none;
+    margin-top: 20px;
+    float: right;
+    font-weight: 300;
+    cursor: pointer;
+}
+.what{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 30px;
+    
+}
+.what h2{
+    color: #B8CB21;
+    font-weight: 400;
+}
+.container_what img{
+    margin-left: 0px;
+    width: 160px;
+    float: left;
+    padding-right: 10px;
+   
+}
+.ulpqrt2{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+footer button{
+    width: 70px;
+    height: 30px;
+    background-color: #B8CB21;
+    color: aliceblue;
+    border: none;
+    float: right;
+    margin-right: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+#btn2{
+    width: 70px;
+    height: 30px;
+    background-color: #21b4cb;
+    color: aliceblue;
+    border: none;
+    float: right;
+    margin-right: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+#academy{
+    width: 40px;;
+    height: 40px;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+.footer p{
+    font-size: 8px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
